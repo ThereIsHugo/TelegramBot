@@ -1,0 +1,75 @@
+============ Guide d'utilisation ============
+
+Si vous aimez ce programme, n'hésitez pas à mettre une étoile sur GitHub et/ou à faire un don !
+
+Bitcoin : 1JtxuaZY2GV8291y2cJvX6yJYtXUcyTRwn
+Ethereum (ERC20, BEP20) : 0xf4e40f5bb6aba8099821d5c965582609040f9667
+USDT (BEP20) : 0xf4e40f5bb6aba8099821d5c965582609040f9667
+Adresse BNB (BEP20) : 0xf4e40f5bb6aba8099821d5c965582609040f9667
+
+CONTENU
+
+1) Utilisation
+2) Problèmes
+
+
+
+============ 1) Utilisation ============
+
+Prérequis : Python + Librairies
+
+- Installer la dernière version de python sur votre ordinateur
+- Lancer le programme nommé "bot_installation.bat" pour installer les librairies
+  Ou installez les librairies manuellement à l'aide de l'invite de commande
+
+
+
+Étape 1 : Enregistrer des comptes avec Bot_manager.bat
+
+1.A) Lancer le programme nommé "Bot_manager.bat"
+1.B) Pour ajouter un nouveau compte, séléctionner l'option 1
+     Entrez vos API ID, API HASH et votre numéro de téléphone
+     Pour ajouter d'autres comptes, appuyez sur [y], sinon appuyez sur [n] puis [ENTRER]
+1.C) Pour filtrer les comptes bannis, séléctionnez l'option 2.
+1.D) Pour voir tous les comptes, séléctionnez l'option 3
+1.E) Pour supprimer un compte, séléctionnez l'option 4
+     Choississez le compte, puis appuyez sur [ENTRER]
+
+
+
+Étape 2: Scraper les membres avec Bot_scraper.bat
+
+2.A) Lancer le programme nommé "Bot_scraper.bat"
+2.B) Séléctionner le compte avec lequel scraper
+2.C) Différence entre scraping d'un groupe public et privé
+     PUBLIC
+     Le groupe à scraper s'appelle : @ThisGroup. Entrez seulement 'ThisGroup' puis [ENTRER]
+     PRIVÉ
+     Copiez le lien d'invitation puis [ENTRER]
+  
+     Le scraping des membres s'effectue automatiquement
+
+
+
+Étape 3: Ajouter les membres à votre groupe avec Bot_tsadder.bat
+
+3.A) Lancer le programme nommé "Bot_tsadder.bat"
+3.B) Ceci va créé une session et vous demander un code. Si vous n'avez pas de code de vérification,
+     Appuyez sur [s] puis [ENTRER] pour passer.
+3.C) Renseigner le nom de votre groupe public sans le @.
+3.D) Renseigner le nombre de comptes à utiliser pour ajouter tous les membres.
+3.E) L'ajout démarre automatiquement
+
+
+
+
+
+============ Problèmes ============
+
+1) Les membres ne s'ajoutent pas
+Le compte que vous utilisez est surement limité, essayez avec un autre compte.
+
+2) Erreur de connexion au compte
+Désactiver l'authentification à deux facteurs si ce n'est pas fait et réessayer.
+
+Pour tous problèmes, n'hésitez pas à me contacter sur GitHub.
